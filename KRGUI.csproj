@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>BetterKoreanTranslation</AssemblyName>
+    <RootNamespace>Celeste.Mod.BetterKoreanTranslation</RootNamespace>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <CelesteGamePath Condition="'$(CELESTEGAMEPATH)' == ''">C:\Program Files (x86)\Steam\steamapps\common\Celeste</CelesteGamePath>
+    <OutputPath>bin\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Celeste" HintPath="$(CelesteGamePath)\Celeste.dll" Private="false" />
+    <Reference Include="FNA" HintPath="$(CelesteGamePath)\FNA.dll" Private="false" />
+    <Reference Include="MMHOOK_Celeste" HintPath="$(CelesteGamePath)\MMHOOK_Celeste.dll" Private="false" />
+  </ItemGroup>
+</Project>

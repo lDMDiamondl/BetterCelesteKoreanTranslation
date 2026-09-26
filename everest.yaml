@@ -1,0 +1,6 @@
+- Name: BetterKoreanTranslation
+  Version: 1.1.2
+  DLL: bin/BetterKoreanTranslation.dll
+  Dependencies:
+    - Name: Everest
+      Version: 1.4465.0
