@@ -1,5 +1,8 @@
 # BetterCelesteKoreanTranslation
 
+<p align="center">
+  <img src="img/1.jpg">
+</p>
 
 [Mod Link](https://gamebanana.com/mods/709091)
 
